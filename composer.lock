@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "edc399df50c0f49476b48db6723acf04",
+    "content-hash": "16794bd42b7f0292096045d0aacdad35",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1326,12 +1326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm.git",
-                "reference": "4e680b61d4130fa23db5df8cf6dc0010367311a0"
+                "reference": "1d5142f871c89c8cc24287c9bb8e98ca3859d37f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/4e680b61d4130fa23db5df8cf6dc0010367311a0",
-                "reference": "4e680b61d4130fa23db5df8cf6dc0010367311a0",
+                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/1d5142f871c89c8cc24287c9bb8e98ca3859d37f",
+                "reference": "1d5142f871c89c8cc24287c9bb8e98ca3859d37f",
                 "shasum": ""
             },
             "require": {
@@ -1351,13 +1351,13 @@
             },
             "require-dev": {
                 "liip/rmt": "~1.2",
-                "phpunit/phpunit": "*",
+                "phpunit/phpunit": "^4.8|5.*",
                 "symfony/phpunit-bridge": "^2.7|^3.0",
                 "symfony/yaml": "^2.3|^3.0"
             },
             "suggest": {
-                "jackalope/jackalope-doctrine-dbal": "^1.1.5",
-                "jackalope/jackalope-jackrabbit": "^1.0",
+                "jackalope/jackalope-doctrine-dbal": "^1.3.0",
+                "jackalope/jackalope-jackrabbit": "^1.3.0",
                 "symfony/yaml": "^2.3|^3.0"
             },
             "bin": [
@@ -1400,7 +1400,7 @@
                 "odm",
                 "phpcr"
             ],
-            "time": "2017-02-09 12:15:02"
+            "time": "2017-04-07 17:06:37"
         },
         {
             "name": "friendsofsymfony/oauth-server-bundle",
@@ -2747,7 +2747,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -2993,12 +2993,12 @@
             "version": "0.9.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/mockery.git",
+                "url": "https://github.com/mockery/mockery.git",
                 "reference": "6fdb61243844dc924071d3404bb23994ea0b6856"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/6fdb61243844dc924071d3404bb23994ea0b6856",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/6fdb61243844dc924071d3404bb23994ea0b6856",
                 "reference": "6fdb61243844dc924071d3404bb23994ea0b6856",
                 "shasum": ""
             },
@@ -4877,16 +4877,16 @@
         },
         {
             "name": "sylius/sylius",
-            "version": "v1.0.0-beta.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/Sylius.git",
-                "reference": "02ccef7f80b5c2cc5bcd9c47f07553e365854c6a"
+                "reference": "62a1d502f66dc7b4da27c20615a21496640fad9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/Sylius/zipball/02ccef7f80b5c2cc5bcd9c47f07553e365854c6a",
-                "reference": "02ccef7f80b5c2cc5bcd9c47f07553e365854c6a",
+                "url": "https://api.github.com/repos/Sylius/Sylius/zipball/62a1d502f66dc7b4da27c20615a21496640fad9a",
+                "reference": "62a1d502f66dc7b4da27c20615a21496640fad9a",
                 "shasum": ""
             },
             "require": {
@@ -5055,7 +5055,7 @@
             ],
             "description": "E-Commerce platform for PHP, based on Symfony framework.",
             "homepage": "http://sylius.org",
-            "time": "2017-04-11T12:49:20+00:00"
+            "time": "2017-07-04 12:03:17"
         },
         {
             "name": "symfony-cmf/block-bundle",
@@ -8970,6 +8970,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "sylius/sylius": 20,
         "doctrine/phpcr-odm": 20,
         "symfony-cmf/block-bundle": 20,
         "symfony-cmf/media-bundle": 20,
